@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; 
+
+}  
+body {
+background-color: #e23939;
+}
+  
+.card {   
+width: 600px;   
+height: 700px;   
+border: 4px solid black;   
+border-radius: 6px;   
+position: absolute;   
+transform: translate(-50%, -50%);   
+top: 50%;   
+left: 50%;  
+background-image: radial-gradient( circle 1588px at -27.3% 144%,  rgba(255,22,22,1) 0%, rgba(0,0,0,1) 43.4%, rgba(0,0,0,1) 65.8%, rgba(255,22,22,1) 100.2% );
+}   
+.titulo {   
+    width: 50%; 
+    height: 30px;  
+    font-size: 2.5rem;   
+    text-align: center;   
+ background-image: linear-gradient( 90.1deg,  rgba(122,0,0,1) 8.1%, rgba(217,42,42,1) 74.4% );
+    border: 1px solid black;   
+    border-radius: 10px;   
+    position: relative;   
+    margin: auto;   
+    top: 10px;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #868484
+;
+}    
+.texto {   
+    width: 80%;  
+    font-size: 1.9rem;   
+    text-align: center;   
+    border: 5px solid #a03535; 
+    border-radius: 10px;   
+    position: relative;   
+    margin: auto;   
+    top: 70px;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ef0808
+;
+}   
+.caja{   
+width: 300px;
+height: 300px;
+position: relative;
+margin: auto;
+
+top: 25px;
+}
+.imagen {   
+    width: 100%;   
+    height: 100%;     
+    position: relative;     
+    margin: auto;
+}
